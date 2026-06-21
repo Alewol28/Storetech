@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="url(#grad)"/>
+  <g fill="white">
+    <!-- Wrench icon -->
+    <path d="M35,45 L40,40 L45,45 L40,50 Z" transform="rotate(-45 40 45)"/>
+    <rect x="38" y="45" width="4" height="20" rx="2" transform="rotate(-45 40 55)"/>
+    
+    <!-- Snowflake icon -->
+    <circle cx="65" cy="35" r="2"/>
+    <line x1="65" y1="30" x2="65" y2="40" stroke="white" stroke-width="2"/>
+    <line x1="60" y1="35" x2="70" y2="35" stroke="white" stroke-width="2"/>
+    <line x1="61" y1="31" x2="69" y2="39" stroke="white" stroke-width="2"/>
+    <line x1="69" y1="31" x2="61" y2="39" stroke="white" stroke-width="2"/>
+    
+    <!-- Lightning bolt -->
+    <path d="M50,55 L55,65 L52,65 L57,75 L47,67 L50,67 Z" fill="white"/>
+  </g>
+</svg>
+
+<!-- Made with Bob -->
